@@ -1,14 +1,14 @@
-const Contact = (props) => {
+const AddRandomContact = (props) => {
     return (
       <div>
         <button
           className="btn btn-danger form-control"
         //   onClick={() => props.handleRemoveAllContact()}
         >
-          Contact
+          Add Random Contact
         </button>
       </div>
     );
   };
   
-  export default Contact;
+  export default AddRandomContact;
